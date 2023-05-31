@@ -7,7 +7,7 @@ const TransactionForm = () => {
   const [amount, setAmount] = useState(0)
 
   const onSubmit = (e) => {
-    e.preventDefault()
+    //e.preventDefault()
     addTransaction({
       id: window.crypto.randomUUID(),
       description,
